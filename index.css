@@ -1,15 +1,14 @@
 body {
-  /* background-color: rgb(2, 3, 56); */
   background: url(download.jpg) no-repeat center center/cover;
   /* background-size: cover; */
   /* test commit */
 }
 .card_transition {
-  background-color: rgb(16, 6, 94);
-  width: calc(100vh - 15%);
+  background-color: rgb(34, 27, 83);
+  width: calc(95vh - 12%);
   margin-left: calc(100vw - 70%);
   overflow: hidden;
-  border-radius: 60px;
+  border-radius: 50px;
   border-style: double;
   border-color: #f1d6d1;
   margin-top: 10px;
@@ -20,11 +19,13 @@ body {
   position: relative;
   margin-left: 110px;
   border-radius: 100px;
-  margin-top: 8px; 
+  margin-top: 18px;
+  align-items: center; 
   
+
 }
 .card_transition> img> hover{
-  filter: drop-shadow(1px 10px 15px rgba(250,113, 33,0.925));
+  filter: drop-shadow(1px 10px 15px rgba(26, 11, 2, 0.925));
 }
 .card_transition> h1 {
   text-align: center;
@@ -45,9 +46,10 @@ body {
 color: rgb(238, 232, 232);
 }
 .card_transition > div > img{
-   margin-left: 150px;
-  margin-top: 2px;
+  margin-left: 155px;
+  margin-top: 0px;
   position: relative;
+  
 }
 .card_transition>div>h4{
 text-align: center;
