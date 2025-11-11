@@ -12,7 +12,6 @@ body {
   border-style: double;
   border-color: #f1d6d1;
   margin-top: 10px;
-
 }
 
 .card_transition > img {
@@ -20,38 +19,34 @@ body {
   margin-left: 110px;
   border-radius: 100px;
   margin-top: 18px;
-  align-items: center; 
-  
-
+  align-items: center;
 }
-.card_transition> img> hover{
+.card_transition > img > hover {
   filter: drop-shadow(1px 10px 15px rgba(26, 11, 2, 0.925));
 }
-.card_transition> h1 {
+.card_transition > h1 {
   text-align: center;
   color: rgb(241, 234, 234);
-
 }
-.card_transition>h2{
+.card_transition > h2 {
   text-align: center;
   color: rgb(247, 244, 244);
 }
 
-.card_transition > p{
+.card_transition > p {
   text-align: center;
   color: rgb(245, 240, 240);
 }
-.card_transition> h3 {
+.card_transition > h3 {
   text-align: center;
-color: rgb(238, 232, 232);
+  color: rgb(238, 232, 232);
 }
-.card_transition > div > img{
+.card_transition > div > img {
   margin-left: 155px;
   margin-top: 0px;
   position: relative;
-  
 }
-.card_transition>div>h4{
-text-align: center;
-color: rgb(245, 240, 240);
+.card_transition > div > h4 {
+  text-align: center;
+  color: rgb(245, 240, 240);
 }
