@@ -1,0 +1,56 @@
+body {
+  background: url(download.jpg) no-repeat center center/cover;
+  /* background-size: cover; */
+  /* test commit */
+}
+.card_transition {
+  background-color: rgb(3, 3, 78);
+  width: calc(95vh - 12%);
+  margin-left: calc(100vw - 70%);
+  overflow: hidden;
+  border-radius: 450px;
+  border-style:double;
+  border-color: #d8f3f7;
+  margin-top: 10px;
+  align-content: center;
+}
+
+.card_transition > img {
+  position: relative;
+  margin-left: 110px;
+  border-radius: 100px;
+  margin-top: 20px;
+
+}
+.card_transition > img > hover {
+  filter: drop-shadow(1px 10px 15px rgba(26, 11, 2, 0.925));
+}
+.card_transition > h1 {
+  text-align: center;
+  color: rgb(241, 234, 234);
+}
+.card_transition > h2 {
+  text-align: center;
+  color: rgb(247, 244, 244);
+}
+
+.card_transition > p {
+  text-align: center;
+  color: rgb(245, 240, 240);
+}
+.card_transition>p>strong{
+  color: rgb(9, 202, 216);
+}
+.card_transition > h3 {
+  text-align: center;
+  color: rgb(238, 232, 232);
+}
+.card_transition > div > img {
+  margin-left: 155px;
+  margin-top: 0px;
+  position: relative;
+}
+.card_transition > div > h4 {
+  text-align: center;
+  color: rgb(245, 240, 240);
+}
